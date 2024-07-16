@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-montserrat {
+    font-family: 'montserrat', sans-serif;
+}
+
+/* line height */
+.leading-22 {
+    line-height: 22px;
+}
+
+.leading-24 {
+    line-height: 24px;
+}
+
+.leading-27 {
+    line-height: 27px;
+}
+
+.leading-35 {
+    line-height: 35px;
+}
+
+.leading-42 {
+    line-height: 42px;
+}
+
+.leading-46 {
+    line-height: 46px;
+}
+
+.leading-62 {
+    line-height: 62px;
+}
+
+.worksheet {
+    padding: 26px;
+}
+
+.project {
+    padding-bottom: 25px;
+}
+
+.number {
+    padding-bottom: 25px;
+}
+
+.nav-link1 {
+    background-color: var(--light-blue);
+    position: relative;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-pills .nav-link1.active {
+    color: none !important;
+    background-color: none !important;
+}
+
+.nav-pills .nav-link1 {
+    padding: 26px;
+    border-radius: 2px !important;
+    border: none;
+}
+
+.navborder {
+    border-top: 1px solid black;
+    border-radius: 2px;
+}
+
+.nav1 {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: -3px 0px 16px 0px #00000014;
+    background-color: var(--light-blue);
+}
+
+.nav1 .nav-link1.active svg path {
+    fill: var(--blue);
+}
+
+.fade:not(.show) {
+    opacity: 0;
+    display: none;
+}
+
+.tab-content {
+    border-radius: 20px;
+    box-shadow: -3px 0px 16px 0px #00000014;
+    padding: 26px 30px 26px 26px;
+    margin-top: 0;
+    background-color: var(--light-blue);
+}
+
+.nav1 .nav-link1.active {
+    color: var(--blue) !important;
+}
+
+.vercel {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+@media(min-width:576px) {
+    .link {
+        display: flex;
+        flex-direction: column none;
+    }
+
+    .vercel {
+        padding-left: 0;
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,68 @@
+:root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-llg: 24px;
+    --fs-xl: 25px;
+    --fs-xxl: 40px;
+
+    /* font-color */
+    --white: #ffffff;
+    --off-white: #b2b2b2;
+    --black: #000000;
+    --blue: #1babfe;
+    --light-blue: #f5faff;
+
+}
+
+/* text-color */
+.text-white {
+    color: var(--white);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-off-white {
+    color: var(--off-white);
+}
+
+.text-off-white {
+    color: var(--light-blue);
+}
+
+.text-16 {
+    font-size: var(--fs-sm);
+}
+
+.text-18 {
+    font-size: var(--fs-md);
+}
+
+.text-20 {
+    font-size: var(--fs-lg);
+}
+
+.text-24 {
+    font-size: var(--fs-llg);
+}
+
+.text-32 {
+    font-size: var(--fs-xl);
+}
+
+.text-48 {
+    font-size: var(--fs-xxl);
+}
+
+@media(min-width:992px) {
+    :root {
+        --fs-xl: 32px;
+    }
+}
